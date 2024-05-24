@@ -9,5 +9,5 @@ class Attempts(object):
     def matches(self) -> bool:
         t = 0
         while t <= self.__max_attempts and self.__difference_sentence.number() != 0:
-            t += t
+            t += 1
         return t <= self.__max_attempts
