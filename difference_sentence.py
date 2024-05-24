@@ -1,4 +1,4 @@
-from Difference import Difference
+from difference import Difference
 
 
 class DifferenceSentence(object):

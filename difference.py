@@ -1,5 +1,5 @@
-import Guess
-from SecretNumber import SecretNumber
+from guess import Guess
+from secret_number import SecretNumber
 
 
 class Difference(object):

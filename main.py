@@ -1,9 +1,9 @@
-from Attempts import Attempts
-from Difference import Difference
-from DifferenceSentence import DifferenceSentence
-from Guess import Guess
-from Result import Result
-from SecretNumber import SecretNumber
+from attempts import Attempts
+from difference import Difference
+from difference_sentence import DifferenceSentence
+from guess import Guess
+from result import Result
+from secret_number import SecretNumber
 
 
 class Main:
@@ -15,7 +15,7 @@ class Main:
                         SecretNumber(),
                         Guess()
                     )
-                ), 7
+                ), 3
             ),
             SecretNumber()
         ).say()

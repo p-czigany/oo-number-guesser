@@ -1,5 +1,5 @@
-from Attempts import Attempts
-from SecretNumber import SecretNumber
+from attempts import Attempts
+from secret_number import SecretNumber
 
 
 class Result(object):
