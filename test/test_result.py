@@ -29,7 +29,6 @@ class TestResult(TestCase):
         mock_attempts_instance = mock_attempts.return_value
         mock_attempts_instance.matches.return_value = True
         mock_secret_number_instance = mock_secret_number.return_value
-        mock_secret_number_instance.number.return_value = 42
 
         # act
         Result(mock_attempts_instance, mock_secret_number_instance).say()
