@@ -8,16 +8,17 @@ from secret_number import SecretNumber
 
 class Main:
     def main(self):
+        secret_number = SecretNumber()
         Result(
             Attempts(
                 DifferenceSentence(
                     Difference(
-                        SecretNumber(),
+                        secret_number,
                         Guess()
                     )
                 ), 3
             ),
-            SecretNumber()
+            secret_number
         ).say()
 
 
